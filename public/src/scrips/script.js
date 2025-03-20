@@ -98,7 +98,7 @@ const DOM = {
         <td class="${CSSclass}">${amount}</td>
         <td class="date">${transaction.date}</td>
         <td>
-            <img class="checked" onclick="Transaction.remove(${index})" src="./icons/minus.svg" alt="Remover transação">
+            <img class="checked" onclick="Transaction.remove(${index})" src="./public/src/icons/minus.svg" alt="Remover transação">
         </td>
         `
 
